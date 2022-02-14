@@ -1,0 +1,41 @@
+@import url(/src/css/Fonts.all.css);
+
+.cards {
+  background-color: rgb(92, 91, 91);
+  color:white;
+  border: 3px solid rgb(92, 91, 91);
+  width: 300px;
+  height: 340px;
+  border-radius: 30px;
+  transition: transform ease-in-out 0.22s;
+}
+
+.cards:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.cards > img {
+  width: 180px;
+  margin-top: 30px;
+  margin-left: 20%;
+} 
+.cards > h4 {
+  margin-top: 20px;
+  font-family: Frase-Cards;
+  text-align: center;
+}
+.containerType3{
+    margin-top: 7%;
+}
+.conteudoType3{
+    display: flex;
+    justify-content: space-around;
+}
+.titleType3{
+    text-align: center;
+    font-family:Conteudo-2-title;
+    margin-bottom: 4%;
+    font-size: 47px;
+    font-weight: 1000;
+}

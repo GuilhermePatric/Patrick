@@ -1,0 +1,28 @@
+@import url(/src/css/Fonts.all.css);
+
+* {
+    margin: 0;
+}
+
+.especifik {
+    filter: hue-rotate(314deg); /* efeito diminuir brilho */
+    height: 800px;
+    background-image: url('/src//img//wallpaper-main.jpg');
+    width: 100%;
+    text-align: center;
+    padding: 40px 4%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 5%;
+    color:white;
+}
+.especifik > h1{
+    margin-top: 17%;
+    filter: brightness(100%);
+    font-family:Title-main;
+    font-weight:0;
+    font-size: 70px;
+    letter-spacing: 3px;
+}

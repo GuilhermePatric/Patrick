@@ -1,0 +1,28 @@
+.containerConteudoTwo{
+    margin-top: 7%;
+display:flex;
+justify-content:space-around;
+}
+.containerConteudoTwo > div{
+    width: 600px;
+   margin-left: 10%;
+}
+.containerConteudoTwo > div >h1{
+    font-family: Conteudo-2-title;
+    font-size: 57px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.containerConteudoTwo > div > p{
+    font-size:20px;
+    font-family:sans-serif;
+    text-align: justify;
+}
+
+.containerConteudoTwo > img{
+    margin-right: 15%;
+    margin-top: 40px;
+}
+p{ 
+    font-family:sans-serif;
+}

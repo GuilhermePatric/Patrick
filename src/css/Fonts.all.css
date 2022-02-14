@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Header-Patric ;
+    src: url(/src/fonts/Patric-header/Balivia.ttf);
+}
+@font-face {
+    font-family: Conteudo-1-title;
+    src: url(/src/fonts/Conteudo-1-title/Northern\ Worssley\ Free.ttf);
+}
+
+@font-face {
+    font-family: Frase-Cards;
+    src: url(/src/fonts/Conteudo2-Frases-dos-Cards/Cinzel-Regular.otf);
+}
+@font-face {
+    font-family: Conteudo-2-title;
+    src: url(/src/fonts/Conteudo-1-title/Northern\ Worssley\ Free.ttf);
+}
+
+@font-face {
+    font-family: Title-main;
+    src: url(/src/fonts//title-main/Bright\ Gesture\ DEMO.otf);
+}
+@font-face {
+    font-family: Title;
+    src: url(/src/fonts//title-main/Bright\ Gesture\ DEMO.otf);
+}
