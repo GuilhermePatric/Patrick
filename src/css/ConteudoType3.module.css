@@ -2,7 +2,7 @@
 
 .cards {
   background-color: rgb(92, 91, 91);
-  color:white;
+  color: white;
   border: 3px solid rgb(92, 91, 91);
   width: 300px;
   height: 340px;
@@ -10,7 +10,7 @@
   transition: transform ease-in-out 0.22s;
 }
 
-.cards:hover{
+.cards:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -19,23 +19,41 @@
   width: 180px;
   margin-top: 30px;
   margin-left: 20%;
-} 
+}
 .cards > h4 {
   margin-top: 20px;
   font-family: Frase-Cards;
   text-align: center;
 }
-.containerType3{
-    margin-top: 7%;
+.containerType3 {
+  margin-top: 7%;
 }
-.conteudoType3{
-    display: flex;
-    justify-content: space-around;
+.conteudoType3 {
+  display: flex;
+  justify-content: space-around;
 }
-.titleType3{
-    text-align: center;
-    font-family:Conteudo-2-title;
-    margin-bottom: 4%;
-    font-size: 47px;
-    font-weight: 1000;
+.titleType3 {
+  text-align: center;
+  font-family: Conteudo-2-title;
+  margin-bottom: 4%;
+  font-size: 47px;
+  font-weight: 1000;
+}
+
+@media screen and (max-width: 420px) {
+  * {
+    max-width: 375px;
+  }
+  .conteudoType3 {
+    flex-direction: column;
+  }
+  .cards {
+    margin-left: 35px;
+    margin-right: 40px; 
+    margin-top: 57px;
+margin-bottom: 70px;
+  }
+  .titleType3 {
+    margin-top: 100px;
+  }
 }

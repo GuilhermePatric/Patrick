@@ -1,26 +1,45 @@
 @import url(/src/css/Fonts.all.css);
 
-.containerTitle{
-text-align: center;
-font-family: Conteudo-1-title;
-font-weight:100;
-font-size: 27px;
+.containerTitle {
+  text-align: center;
+  font-family: Conteudo-1-title;
+  font-weight: 100;
+  font-size: 27px;
 }
 
-.containerprincipal{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 4%;
+.containerprincipal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
 }
 
 .containerConteudo {
-width: 300px;
-text-align: justify;
+  width: 300px;
+  text-align: justify;
 }
-.containerConteudo > img{
-    margin-left: 4%;
-	transition: all 0.3s;
+.containerConteudo > img {
+  margin-left: 4%;
+  transition: all 0.3s;
 }
-.containerConteudo > img:hover{
-	transform: scale(1.2)
+.containerConteudo > img:hover {
+  transform: scale(1.2);
+} 
+
+@media screen and (max-width: 420px) {
+  *{
+    max-width:375px;
+  }
+  .containerprincipal {
+    flex-direction: column;
+
+  }
+  .containerConteudo {
+    padding-top: 70px;
+    margin-left: 40px;
+  }
+  .containerTitle{
+      margin-top: 62px;
+      text-align: center;
+      font-size: 20px;
+  }
 }

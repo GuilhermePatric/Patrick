@@ -13,7 +13,7 @@ export default () => {
                     <textarea  placeholder="Message...."/>
                     <button type="submit">Enviar</button>
                 </form>
-            </div>
+            </div> 
         </div>
     )
 }

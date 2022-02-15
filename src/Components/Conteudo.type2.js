@@ -2,7 +2,7 @@ import styles from '../css/ConteudoType2.module.css';
 
 export default (props) => {
 
-    return (
+    return ( 
         <div className={styles.containerConteudoTwo}>
             <div>
                 <h1>Technology</h1>

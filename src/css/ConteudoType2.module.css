@@ -1,28 +1,54 @@
-.containerConteudoTwo{
-    margin-top: 7%;
-display:flex;
-justify-content:space-around;
+.containerConteudoTwo {
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-around;
 }
-.containerConteudoTwo > div{
-    width: 600px;
-   margin-left: 10%;
+.containerConteudoTwo > div {
+  width: 600px;
+  margin-left: 10%;
 }
-.containerConteudoTwo > div >h1{
-    font-family: Conteudo-2-title;
-    font-size: 57px;
-    text-align: center;
-    margin-bottom: 40px;
+.containerConteudoTwo > div > h1 {
+  font-family: Conteudo-2-title;
+  font-size: 57px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.containerConteudoTwo > div > p{
-    font-size:20px;
-    font-family:sans-serif;
-    text-align: justify;
+.containerConteudoTwo > div > p {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify;
 }
 
-.containerConteudoTwo > img{
-    margin-right: 15%;
-    margin-top: 40px;
+.containerConteudoTwo > img {
+  margin-right: 15%;
+  margin-top: 40px;
 }
-p{ 
-    font-family:sans-serif;
+p {
+  font-family: sans-serif;
+}
+ 
+@media screen and (max-width: 420px) {
+  *{
+    max-width:375px;
+  }
+  .containerConteudoTwo {
+      margin-top: 100px;
+    flex-direction: column;
+  }
+  .containerConteudoTwo > img {
+    width: 380px;
+    margin-right: 0;
+  } 
+  .containerConteudoTwo > div {
+    width: 100%;
+  }
+  .containerConteudoTwo > div > p {
+    margin-right: 70px;
+    text-align: justify;
+  }
+  .containerConteudoTwo > div > h1 {
+    text-align: center;
+    margin-right: 70px;
+    font-size:40px;
+  }
 }

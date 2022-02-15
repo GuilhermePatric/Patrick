@@ -1,7 +1,7 @@
 .containerFooter{
 margin-top: 12%;
 }
-
+ 
 .conteudoFooter{
 background-color: black;
 height: 500px;
@@ -9,4 +9,18 @@ color:white;
 text-align: center;
 padding-top: 10%;
 font-size: 20px;
+}
+
+@media screen and (max-width:420px){
+    *{
+       overflow-x: hidden;
+      }
+.containerFooter{
+
+    width: 414px;
+}
+.conteudoFooter{
+    padding-top: 80px;
+    font-size: 15px;
+}
 }

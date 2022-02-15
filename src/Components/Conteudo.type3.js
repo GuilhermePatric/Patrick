@@ -1,7 +1,7 @@
 import styles from '../css/ConteudoType3.module.css'
  
 export default (props) => {
-    return (
+    return ( 
         <div className={styles.containerType3}>
             <h1 className={styles.titleType3}>{props.title}</h1>
             <div className={styles.conteudoType3}>

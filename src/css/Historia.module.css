@@ -1,35 +1,51 @@
 @import url(/src/css/Fonts.all.css);
-.containerPerfil{
-    margin-top:5%;
-    text-align:center;
+.containerPerfil {
+  margin-top: 5%;
+  text-align: center;
 }
-.containerPerfil > img{
-    border-radius: 60%;
+.containerPerfil > img {
+  border-radius: 60%;
 }
-.containerPerfil > h1{
-    font-family: Title ;
-    font-size: 50px;
+.containerPerfil > h1 {
+  font-family: Title;
+  font-size: 50px;
 }
 .containerPerfil > p {
-    margin-top:10px;
-    font-size: 34px;
+  margin-top: 10px;
+  font-size: 34px;
 }
 
-.textApresentation{
-    width: 800px;
-    text-align: justify;
+.textApresentation {
+  width: 800px;
+  text-align: justify;
 }
-.textApresentation > p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
-    margin-top: 10px;
+.textApresentation > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin-top: 10px;
 }
-.textApresentation{
+.textApresentation {
+  margin-top: 40px;
+  margin-left: 30%;
+}
+.textApresentation > h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 420px) {
+  * {
+    max-width: 375px;
+  }
+  .textApresentation  {
     margin-top: 40px;
-    margin-left: 30%;
-}
-.textApresentation > h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 5%;
-    font-size: 30px;
+    margin-left: 0;
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+  .textApresentation > p{
+      font-size:20px;
+  }
 }

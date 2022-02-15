@@ -1,7 +1,7 @@
 import Perfil from '../img/gui.jpeg'
 import styles from '../css/Historia.module.css'
 export default () => {
-    return (
+    return ( 
         <div className={styles.containerPerfil}>
             <h1>Criador: </h1>
             <img src={Perfil} width="500px" alt="" />
